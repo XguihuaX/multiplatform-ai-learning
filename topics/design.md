@@ -6,11 +6,11 @@
 
 [Oil UI](https://github.com/oil-oil/dsh-oil-ui)补上方案比较与验收：提出三个不同的首屏方向，选定后实现，并用浏览器截图检查响应式和交互。把两者结合，可形成：brief→信息结构→视觉方向→实现→截图与交互验收。
 
-X22虽也讲“神级网页Skill”，正文未命名项目，暂时保留独立条目。X27提及design-to-motion，但当前Elaya README列出的技能有变化，使用前要按实际文件核对名称。
+X22画面已确认AI Design Skills的README及技能表，与X27对应同一项目。两条来源保留，方法在本专题合并。X27提及design-to-motion，但当前Elaya README列出的技能有变化，使用前要按实际文件核对名称。
 
 ## PPT与图像
 
-X26的PPT-Master尚未唯一定位项目。下一步应看它能否输出可编辑页面、保留数据来源、处理图表和调整版式，不能仅看漂亮样张。
+X26画面14.3秒已定位[hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)，视频展示v6.7.3。现行文档说明可在本地Agent中组织材料并生成原生可编辑PPTX；尚未运行验证。下一步检查它能否输出可编辑页面、保留数据来源、处理图表和调整版式，不能仅看漂亮样张。
 
 [H3-Image官方仓库](https://github.com/MiniMax-AI/MiniMax-H3-Image)提供多参考图生成与提示词Skill。可学习的是把简短意图扩展为明确主体、布局、文字与参考图关系。X09的速度和价格需要对应实际服务与版本，尚未复测。
 

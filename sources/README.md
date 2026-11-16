@@ -29,33 +29,33 @@
 | B21 | [Breeze TTS2 V3整合升级：8G显存与2.3倍速度](bilibili/B21.md) | 语音合成 | 页面详细简介＋上游README对照 |
 | B22 | [致B站所有AI的第一课：记忆、人格、自进化、多agent协作](bilibili/B22.md) | Agent与记忆 | 页面详细简介 |
 | B23 | [自然语言驱动的LumenACT表情系统](bilibili/B23.md) | 3D与动画 | 页面简介＋一个演示画面 |
-| X01 | [一个人在出租屋里是干不成跨境电商的](xiaohongshu/X01.md) | 商业与组织 | 正文标签 |
-| X02 | [立绘转可动形象，一张插画变直播分身](xiaohongshu/X02.md) | 3D与动画 | 正文 |
-| X03 | [谷歌100%全自动科研碾压人类最佳模型!!!](xiaohongshu/X03.md) | 科研与模型训练 | 正文标签 |
-| X04 | [头等舱采访：AI最先淘汰中层？](xiaohongshu/X04.md) | 商业与组织 | 正文 |
-| X05 | [大模型微调的10种方法](xiaohongshu/X05.md) | 科研与模型训练 | 正文＋完整可见信息图 |
-| X06 | [面试官：都是7B生成推理链来蒸馏，为啥DeepSeek-R1效果不同？](xiaohongshu/X06.md) | 科研与模型训练 | 正文＋开场画面＋官方文档补充 |
-| X07 | [AI Infra知识体系梳理](xiaohongshu/X07.md) | 科研与模型训练 | 正文＋开场画面 |
-| X08 | [我用AI几天写完ICML论文·完整步骤](xiaohongshu/X08.md) | 科研与模型训练 | 完整正文 |
-| X09 | [10秒出一张4K图：MiniMax H3-Image](xiaohongshu/X09.md) | 设计与内容制作 | 正文＋官方README |
-| X10 | [ICML一起写AI顶会论文：大模型记忆](xiaohongshu/X10.md) | 科研与模型训练 | 完整正文 |
-| X11 | [我家4个工位，3个是AI员工](xiaohongshu/X11.md) | 商业与组织 | 正文标签 |
-| X12 | [DeepSeek-R1蒸馏Qwen-7B强在哪？](xiaohongshu/X12.md) | 科研与模型训练 | 正文标签＋官方文档补充 |
-| X13 | [Codex接管跨境投放效果怎么样](xiaohongshu/X13.md) | 商业与组织 | 正文标签 |
-| X14 | [分享几款我们团队在用的AI工具](xiaohongshu/X14.md) | DSH与工作流 | 正文标签 |
-| X15 | [又一个参数化工具](xiaohongshu/X15.md) | 3D与动画 | 正文 |
-| X16 | [第30期：让虚拟资料卖家集体失业的网站](xiaohongshu/X16.md) | 资源与检索 | 正文 |
-| X17 | [释放双手，让AI全权接管电脑](xiaohongshu/X17.md) | DSH与工作流 | 正文标签 |
-| X18 | [Harness深度解析（上）：从工作几秒到连续数周](xiaohongshu/X18.md) | DSH与工作流 | 完整正文 |
-| X19 | [谷歌全自动科研AI：ScientistTwo](xiaohongshu/X19.md) | 科研与模型训练 | 正文＋原论文摘要与项目页 |
-| X20 | [Codex使用必做动作](xiaohongshu/X20.md) | DSH与工作流 | 正文标签 |
-| X21 | [靠AI不上班如何月入2万？](xiaohongshu/X21.md) | 商业与组织 | 正文标签 |
-| X22 | [好看哭了的神级网页Skill](xiaohongshu/X22.md) | 设计与内容制作 | 正文 |
-| X23 | [文科生如何成为Grok负责人？](xiaohongshu/X23.md) | Agent与记忆 | 正文标签＋平台AI评论片段 |
-| X24 | [清华应届生5千元起步，自研智能体做跨境电商，半年营收700万](xiaohongshu/X24.md) | 商业与组织 | 正文＋嘉宾评论 |
-| X25 | [一人公司，为啥晒收入？我在国外找到了答案](xiaohongshu/X25.md) | 商业与组织 | 正文标签 |
-| X26 | [PPT-Master：答辩、汇报、演讲](xiaohongshu/X26.md) | 设计与内容制作 | 正文 |
-| X27 | [这个神级Skill，做的网页超好看！](xiaohongshu/X27.md) | 设计与内容制作 | 完整正文＋演示画面＋官方README |
+| X01 | [一个人在出租屋里是干不成跨境电商的](xiaohongshu/X01.md) | 商业与组织 | 正文标签＋本地视频关键帧抽样＋完整音频本地ASR审读 |
+| X02 | [立绘转可动形象，一张插画变直播分身](xiaohongshu/X02.md) | 3D与动画 | 正文＋本地视频关键帧抽样＋完整音频本地ASR审读 |
+| X03 | [谷歌100%全自动科研碾压人类最佳模型!!!](xiaohongshu/X03.md) | 科研与模型训练 | 正文标签＋本地视频关键帧抽样＋完整音频本地ASR审读 |
+| X04 | [头等舱采访：AI最先淘汰中层？](xiaohongshu/X04.md) | 商业与组织 | 正文＋本地视频关键帧抽样 |
+| X05 | [大模型微调的10种方法](xiaohongshu/X05.md) | 科研与模型训练 | 正文＋完整可见信息图＋本地视频关键帧抽样 |
+| X06 | [面试官：都是7B生成推理链来蒸馏，为啥DeepSeek-R1效果不同？](xiaohongshu/X06.md) | 科研与模型训练 | 正文＋开场画面＋官方文档补充＋本地视频关键帧抽样 |
+| X07 | [AI Infra知识体系梳理](xiaohongshu/X07.md) | 科研与模型训练 | 正文＋开场画面＋本地视频关键帧抽样 |
+| X08 | [我用AI几天写完ICML论文·完整步骤](xiaohongshu/X08.md) | 科研与模型训练 | 完整正文＋本地视频关键帧抽样 |
+| X09 | [10秒出一张4K图：MiniMax H3-Image](xiaohongshu/X09.md) | 设计与内容制作 | 正文＋官方README＋本地视频关键帧抽样 |
+| X10 | [ICML一起写AI顶会论文：大模型记忆](xiaohongshu/X10.md) | 科研与模型训练 | 完整正文＋本地视频关键帧抽样 |
+| X11 | [我家4个工位，3个是AI员工](xiaohongshu/X11.md) | 商业与组织 | 正文标签＋本地视频关键帧抽样 |
+| X12 | [DeepSeek-R1蒸馏Qwen-7B强在哪？](xiaohongshu/X12.md) | 科研与模型训练 | 正文标签＋官方文档补充＋本地视频关键帧抽样 |
+| X13 | [Codex接管跨境投放效果怎么样](xiaohongshu/X13.md) | 商业与组织 | 正文标签＋本地视频关键帧抽样 |
+| X14 | [分享几款我们团队在用的AI工具](xiaohongshu/X14.md) | DSH与工作流 | 正文标签＋本地视频关键帧抽样 |
+| X15 | [又一个参数化工具](xiaohongshu/X15.md) | 3D与动画 | 正文＋本地视频关键帧抽样 |
+| X16 | [第30期：让虚拟资料卖家集体失业的网站](xiaohongshu/X16.md) | 资源与检索 | 正文＋本地视频关键帧抽样 |
+| X17 | [释放双手，让AI全权接管电脑](xiaohongshu/X17.md) | DSH与工作流 | 正文标签＋本地视频关键帧抽样 |
+| X18 | [Harness深度解析（上）：从工作几秒到连续数周](xiaohongshu/X18.md) | DSH与工作流 | 完整正文＋本地视频关键帧抽样 |
+| X19 | [谷歌全自动科研AI：ScientistTwo](xiaohongshu/X19.md) | 科研与模型训练 | 正文＋原论文摘要与项目页＋本地视频关键帧抽样 |
+| X20 | [Codex使用必做动作](xiaohongshu/X20.md) | DSH与工作流 | 正文标签＋本地视频关键帧抽样 |
+| X21 | [靠AI不上班如何月入2万？](xiaohongshu/X21.md) | 商业与组织 | 正文标签＋本地视频关键帧抽样 |
+| X22 | [好看哭了的神级网页Skill](xiaohongshu/X22.md) | 设计与内容制作 | 正文＋本地视频关键帧抽样 |
+| X23 | [文科生如何成为Grok负责人？](xiaohongshu/X23.md) | Agent与记忆 | 正文标签＋平台AI评论片段＋本地视频关键帧抽样 |
+| X24 | [清华应届生5千元起步，自研智能体做跨境电商，半年营收700万](xiaohongshu/X24.md) | 商业与组织 | 正文＋嘉宾评论＋本地视频关键帧抽样 |
+| X25 | [一人公司，为啥晒收入？我在国外找到了答案](xiaohongshu/X25.md) | 商业与组织 | 正文标签＋本地视频关键帧抽样 |
+| X26 | [PPT-Master：答辩、汇报、演讲](xiaohongshu/X26.md) | 设计与内容制作 | 正文＋本地视频关键帧抽样 |
+| X27 | [这个神级Skill，做的网页超好看！](xiaohongshu/X27.md) | 设计与内容制作 | 完整正文＋演示画面＋官方README＋本地视频关键帧抽样 |
 
 ## 分类数量
 

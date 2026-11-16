@@ -12,6 +12,6 @@ X08作者在正文中描述了小实验找规律的过程，同时明确草稿�
 
 X05信息图的十种方法混用了两个分类轴：全参数、LoRA、QLoRA、适配器、前缀/提示等关注更新哪些参数；指令训练、RLHF和DPO关注训练信号与目标。这些维度可以组合，阅读时不要当作互斥菜单。
 
-X06与X12可共同对照[DeepSeek-R1官方资料](https://github.com/deepseek-ai/DeepSeek-R1)：完整R1是教师来源，Distill-Qwen-7B是基于Qwen2.5-Math-7B的学生。官方说明用R1生成数据微调学生。分析效果需要同时看教师、筛选数据、底座、训练目标和评测；视频的具体解释仍待补读。
+X06与X12可共同对照[DeepSeek-R1官方资料](https://github.com/deepseek-ai/DeepSeek-R1)：完整R1是教师来源，Distill-Qwen-7B是基于Qwen2.5-Math-7B的学生。官方说明用R1生成数据微调学生。分析效果需要同时看教师、筛选数据、底座、训练目标和评测；画面抽样发现视频以PRM解释R1优势，但[原论文§4.2](https://arxiv.org/html/2501.12948v1#S4.SS2)将PRM列为未成功尝试；学习时应纠正这一因果解释。
 
-X07是AI Infra视频，开场图可见模型、GPU和推理指标。完整六分钟讲述尚未提取，暂不据封面补全课程体系。
+X07关键帧显示手绘主线为模型张量与shape、GPU计算/带宽、推理框架的prefill/decode与TTFT/TPOT、量化和KV cache、集群通信。可据此安排学习顺序，完整口播正在本地转写。

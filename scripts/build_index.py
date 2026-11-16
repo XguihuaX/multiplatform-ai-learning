@@ -18,7 +18,8 @@ for x in items:
     path.write_text(f"# {x['id']} · {x['title']}\n\n"
         f"- 平台：{x['platform']}\n- 来源：[原始内容]({x['url']})\n- 稳定ID：{x['source_id']}\n"
         f"- 分类：{x['category']}\n- 阅读日期：{x['reviewed_at']}\n- 阅读范围：{x['coverage']}\n"
-        f"- 完整视频学习：未完成\n- 实机复现：未进行\n\n"
+        f"- 学习状态：{x.get('learning_status', '已完成全段ASR与关键帧的本轮整理' if x.get('audio_notes') else '待补完整音频阅读')}\n"
+        f"- 画面覆盖：{'关键帧抽样，未连续逐帧观看' if x.get('visual_observations') else '未完成系统画面阅读'}\n- 实机复现：未进行\n\n"
         f"## 已提取内容\n\n{x['summary']}\n\n## 核查与阅读缺口\n\n{x['verification']}\n\n" +
         (f"## 视频画面观察\n\n{x['visual_observations']}\n\n" if x.get('visual_observations') else '') +
         (f"## 音频内容学习\n\n{x['audio_notes']}\n\n" if x.get('audio_notes') else '') +

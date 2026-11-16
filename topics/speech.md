@@ -1,0 +1,13 @@
+# TTS：先对齐指标和配置再比较
+
+| 项目 | 学习重点 | 当前资料提示 | 未完成验证 |
+| --- | --- | --- | --- |
+| AnifLive-TTS | 流式首音、工程优化 | 特定GPU与预热条件下的TTFA；Windows与Mac实现路径不同 | 本机首音、音质与长句稳定性 |
+| BreezeTTS2 | 克隆、设计与声音控制 | 参考音频与转写匹配；不同推理模式显存不同 | 整合包与上游同条件比较 |
+| Breeze整合包V3 | 使用便利、切句和速度 | V3属于包的版本语境 | 8G配置与2.3倍基准 |
+
+来源：[AnifLive](https://github.com/Hiruynk/AnifLive-TTS)、[Breeze](https://github.com/breezeblue-ai/breeze-tts)、[B07](../sources/bilibili/B07.md)、[B14](../sources/bilibili/B14.md)、[B21](../sources/bilibili/B21.md)。
+
+首音延迟反映等待第一段声音的时间；整句生成速度反映吞吐；显存影响是否能运行；发音与音色稳定性决定可用性。这些指标需同时记录，不能用单个最优数字做选择。
+
+建议测试短句、长句、数字英文混读和多角色材料，各重复多次，保留冷启动与预热结果。记录模型/包版本、系统、GPU、输入长度、并发、流式设置、P50/P95和音频样本。当前没有进行这些实验。

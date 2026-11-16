@@ -9,7 +9,7 @@ items = json.loads((ROOT / 'sources/catalog.json').read_text())
 assert len({x['id'] for x in items}) == len(items), 'duplicate ID'
 assert len({x['source_id'] for x in items}) == len(items), 'duplicate source'
 lines = ['# 收藏学习索引', '', '阅读日期：2026-11-16。范围为B站学习_llm收藏夹，以及小红书最新收藏至指定截止笔记（含该条）。', '',
-         '状态：已建立目录并完成可访问正文/文档的一轮整理；完整音视频学习尚未完成。每条笔记注明阅读范围。', '',
+         '状态：小红书27条已完成全段ASR检查与关键帧抽样的首轮整理；B站23条仍为正文/文档整理，完整媒体待补。每条笔记注明阅读范围。', '',
          '| ID | 标题与笔记 | 分类 | 实际阅读范围 |', '| --- | --- | --- | --- |']
 for x in items:
     path = ROOT / 'sources' / x['platform'] / (x['id'] + '.md')

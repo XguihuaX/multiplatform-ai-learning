@@ -114,27 +114,34 @@
     "source_id": "BV1E1HT63EH2",
     "title": "我把GPT-SoVITS的首音延迟做到了74.6ms！AnifLive-TTS",
     "category": "语音合成",
-    "coverage": "页面详细简介＋官方README",
+    "coverage": "页面简介＋全段ASR空结果检查＋8帧画面抽样＋官方README/API/性能与Mac安装文档",
     "summary": "AnifLive-TTS围绕流式语音和首音延迟优化，提供Studio及SDK。Windows使用TensorRT，当前Mac路径使用MLX/Metal。",
-    "verification": "历史74.578ms为RTX5070Ti、预热、keepalive、单并发等条件下的TTFA P50；不是所有硬件的扬声器端延迟。当前v1.5文档有更新结果。",
-    "next_action": "固定短句与长句，分别测首音P50/P95、整句耗时、峰值显存和发音质量；部署前读对应版本授权。",
+    "verification": "历史74.578ms是RTX5070Ti预热单并发持久连接下的可听TTFA P50，不含设备播放。已核对v1.5平台差异：Mac流式在AR到EOS和完整CFM后才开始声码器逐窗输出；Mac最低内存未验证。本机M2/8GB尚未部署。",
+    "next_action": "在可用硬件上按教程完成固定WAV、流式PCM、取消与延迟分段测量。",
     "references": [
-      "https://github.com/Hiruynk/AnifLive-TTS"
+      "https://github.com/Hiruynk/AnifLive-TTS",
+      "https://github.com/Hiruynk/AnifLive-TTS/blob/main/docs/API_EN.md",
+      "https://github.com/Hiruynk/AnifLive-TTS/blob/main/docs/PERFORMANCE_ENGINEERING.md",
+      "https://github.com/Hiruynk/AnifLive-TTS/blob/main/docs/MACOS_INSTALLATION_EN.md"
     ],
     "platform": "bilibili",
     "url": "https://www.bilibili.com/video/BV1E1HT63EH2/",
     "full_video_reviewed": false,
-    "reviewed_at": "2026-11-16",
+    "reviewed_at": "2026-11-17",
     "note_path": "knowledge/speech/B07.md",
     "media_downloaded": true,
-    "media_parts": 1
+    "media_parts": 1,
+    "lesson_body_path": "lessons/speech.md",
+    "learning_status": "已编写详细语音教程；本机部署未实测",
+    "visual_observations": "八帧抽样可见五语言/表达配置、Studio训练转换评估、Rust/Python SDK与Speech Session，片尾标v1.5.0-beta。",
+    "audio_notes": "49秒媒体全段ASR输出segments为空，没有据此生成口播内容；具体技术讲解来自官方文档。"
   },
   {
     "id": "B08",
     "source_id": "BV1TtpL6SEvg",
     "title": "别随便让AI替你选技术栈！",
     "category": "工具与工作流",
-    "coverage": "页面详细简介＋官方README",
+    "coverage": "页面简介＋完整本地ASR审读",
     "summary": "先用真实需求约束技术选择：小型共享记录场景可能用表格就足够，再比较维护成本和增长需求。nagi的architect提供方案比较方法。",
     "verification": "核心可迁移内容是选型流程；视频示例不意味着React、Supabase或Vercel普遍不适合。",
     "next_action": "写一页需求，列出最简单方案及两个替代方案，比较部署、维护、权限和迁移成本。",
@@ -144,10 +151,13 @@
     "platform": "bilibili",
     "url": "https://www.bilibili.com/video/BV1TtpL6SEvg/",
     "full_video_reviewed": false,
-    "reviewed_at": "2026-11-16",
+    "reviewed_at": "2026-11-17",
     "note_path": "knowledge/workflows/B08.md",
     "media_downloaded": true,
-    "media_parts": 1
+    "media_parts": 1,
+    "lesson_body_path": "lessons/workflows.md",
+    "audio_notes": "讨论需求澄清、真实能力访谈、维护责任、选择成熟技术、按简单可维护排序和持久保存选型决定。示例从复杂Web技术栈转向表格，再比较自建方案。",
+    "learning_status": "已纳入工作流教程；画面操作未系统补读"
   },
   {
     "id": "B09",
@@ -384,7 +394,7 @@
     "source_id": "BV1vsWt6AEuy",
     "title": "Breeze TTS2 V3整合升级：8G显存与2.3倍速度",
     "category": "语音合成",
-    "coverage": "页面详细简介＋上游README对照",
+    "coverage": "页面简介＋全段本地ASR审读＋8帧画面抽样＋上游README",
     "summary": "本条重点是第三方整合包的速度、长文本与显存体验，和B14同属Breeze工具线。",
     "verification": "V3为整合包版本，不能自动当成Breeze上游模型版本。2.3倍缺少同硬件基线复测。",
     "next_action": "将整合包和上游的版本、启动模式、切句、共享内存与推理后端放入对照表。",
@@ -394,10 +404,13 @@
     "platform": "bilibili",
     "url": "https://www.bilibili.com/video/BV1vsWt6AEuy/",
     "full_video_reviewed": false,
-    "reviewed_at": "2026-11-16",
+    "reviewed_at": "2026-11-17",
     "note_path": "knowledge/speech/B21.md",
     "media_downloaded": true,
-    "media_parts": 1
+    "media_parts": 1,
+    "audio_notes": "25秒后讲整合包V3、显存、500字生成耗时、多段并行。ASR部分数值及重复段落可疑：90.21/106.24约0.849，与识别出的0.89不符，未将其作为实测结果。",
+    "visual_observations": "片头对比100字49秒/17秒、500字3:25/1:28，标2.9x/2.3x；画面明确模型没换，后半段展示WebUI生成与播放。数字为作者展示，未本机复测。",
+    "learning_status": "补读ASR与画面，整合入语音教程；整合包逐步操作待展开"
   },
   {
     "id": "B22",
@@ -1048,6 +1061,7 @@
     "audio_notes": "00:03–00:12：介绍开源Skill及从零组织落地页。00:12–00:18：介绍静态设计转产品动效及Agent工具适配的宣传。项目身份通过画面中的仓库确认，未依赖口播人名误识别。",
     "transcript_evidence": ".cache/transcripts/X27.json",
     "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现",
-    "note_path": "knowledge/design/X27.md"
+    "note_path": "knowledge/design/X27.md",
+    "lesson_body_path": "lessons/design.md"
   }
 ]

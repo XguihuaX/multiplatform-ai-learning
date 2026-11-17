@@ -3,48 +3,80 @@
     "name": "工具与工作流",
     "slug": "workflows",
     "topic": "workflows.md",
-    "description": "工具集成、Skill、MCP、上下文管理与任务执行"
+    "description": "工具集成、Skill、MCP、上下文管理与任务执行",
+    "lesson_path": "lessons/workflows.md",
+    "lesson_title": "把需求变成Skill与工作流",
+    "learning_outcome": "写出有输入、输出和恢复路径的Skill；设计YonWORK工具接口",
+    "lesson_depth": "完整流程示例"
   },
   {
     "name": "Agent与记忆",
     "slug": "agents",
     "topic": "agents.md",
-    "description": "身份、记忆检索、调度与持续运行"
+    "description": "身份、记忆检索、调度与持续运行",
+    "lesson_path": "lessons/agents.md",
+    "lesson_title": "Agent任务续接与长期记忆",
+    "learning_outcome": "区分上下文、任务状态与知识；设计可恢复任务",
+    "lesson_depth": "原理与设计案例"
   },
   {
     "name": "科研与模型训练",
     "slug": "research-training",
     "topic": "research-training.md",
-    "description": "实验设计、微调、蒸馏、AI Infra与科研方法"
+    "description": "实验设计、微调、蒸馏、AI Infra与科研方法",
+    "lesson_path": "lessons/research-training.md",
+    "lesson_title": "训练方法、Infra与最小实验",
+    "learning_outcome": "区分微调维度，设计有对照的蒸馏/检索实验",
+    "lesson_depth": "概念与实验设计"
   },
   {
     "name": "设计与内容制作",
     "slug": "design",
     "topic": "design.md",
-    "description": "网页、PPT、图像与内容设计"
+    "description": "网页、PPT、图像与内容设计",
+    "lesson_path": "lessons/design.md",
+    "lesson_title": "网页设计：从需求到可执行设计",
+    "learning_outcome": "写设计brief、信息结构、文案、样式和验收条件",
+    "lesson_depth": "详细教程与可复制Prompt"
   },
   {
     "name": "语音合成",
     "slug": "speech",
     "topic": "speech.md",
-    "description": "音色克隆、情绪控制、延迟与配音"
+    "description": "音色克隆、情绪控制、延迟与配音",
+    "lesson_path": "lessons/speech.md",
+    "lesson_title": "低延迟GPT-SoVITS与语音应用",
+    "learning_outcome": "读懂AnifLive优化，接API、PCM、分句队列和打断",
+    "lesson_depth": "详细技术教程与开发任务书"
   },
   {
     "name": "3D与动画",
     "slug": "animation",
     "topic": "animation.md",
-    "description": "建模、角色驱动、表情、物理与视频衔接"
+    "description": "建模、角色驱动、表情、物理与视频衔接",
+    "lesson_path": "lessons/animation.md",
+    "lesson_title": "从角色图到会说话的形象",
+    "learning_outcome": "理解制作管线，设计音量嘴型与播放同步",
+    "lesson_depth": "管线讲解与算法示例"
   },
   {
     "name": "商业与组织",
     "slug": "business",
     "topic": "business.md",
-    "description": "业务Agent、跨境运营、组织协作与商业案例"
+    "description": "业务Agent、跨境运营、组织协作与商业案例",
+    "lesson_path": "lessons/business.md",
+    "lesson_title": "把业务经验变成AI流程",
+    "learning_outcome": "按明确口径算订单贡献，设计SOP与业务Skill",
+    "lesson_depth": "完整业务算例"
   },
   {
     "name": "资源与检索",
     "slug": "resources",
     "topic": "resources.md",
-    "description": "资源导航、资料定位与来源检索"
+    "description": "资源导航、资料定位与来源检索",
+    "lesson_path": "lessons/resources.md",
+    "lesson_title": "从收藏找到可复用项目资料",
+    "learning_outcome": "确认项目身份、接口和版本，保留可检索知识",
+    "lesson_depth": "方法讲解"
   }
 ]

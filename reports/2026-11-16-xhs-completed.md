@@ -8,13 +8,13 @@
 
 | 方向 | 入口 | 本轮学到什么 | 下一步 |
 | --- | --- | --- | --- |
-| 业务Agent | [X24](../sources/xiaohongshu/X24.md) | 将专业经验写成Skill，接数据与API，以业务界面展示并检查结果 | 虚构订单→物流模板→校验清单 |
-| AI Infra | [X07](../sources/xiaohongshu/X07.md) | 模型、GPU、框架、集群四层；延迟、吞吐与缓存关系 | 从shape与单机性能测量开始 |
-| AI科研流程 | [X08](../sources/xiaohongshu/X08.md)、[X10](../sources/xiaohongshu/X10.md) | 小实验、消融、检索与生成分开评估、公平基线 | 固定一个可证伪问题与独立测试集 |
-| Agent流程固化 | [X18](../sources/xiaohongshu/X18.md)、[X20](../sources/xiaohongshu/X20.md)、[X23](../sources/xiaohongshu/X23.md) | 按需上下文、任务记录、复述确认与成功流程保存 | 对第二个输入验证Skill复用 |
-| 设计与演示 | [X22](../sources/xiaohongshu/X22.md)、[X26](../sources/xiaohongshu/X26.md)、[X27](../sources/xiaohongshu/X27.md) | 先内容结构再视觉；检查PPT可编辑性 | 一个brief做页面与5页PPT |
-| 本机工具接口 | [X17](../sources/xiaohongshu/X17.md) | Windows-MCP提供状态与操作接口 | 验证宿主连接和一个可逆动作 |
-| 角色驱动 | [X02](../sources/xiaohongshu/X02.md)、[X15](../sources/xiaohongshu/X15.md) | 插画绑定/驱动与灯光参数是不同环节 | 先确认工具与输入输出格式 |
+| 业务Agent | [X24](../knowledge/business/X24.md) | 将专业经验写成Skill，接数据与API，以业务界面展示并检查结果 | 虚构订单→物流模板→校验清单 |
+| AI Infra | [X07](../knowledge/research-training/X07.md) | 模型、GPU、框架、集群四层；延迟、吞吐与缓存关系 | 从shape与单机性能测量开始 |
+| AI科研流程 | [X08](../knowledge/research-training/X08.md)、[X10](../knowledge/research-training/X10.md) | 小实验、消融、检索与生成分开评估、公平基线 | 固定一个可证伪问题与独立测试集 |
+| Agent流程固化 | [X18](../knowledge/workflows/X18.md)、[X20](../knowledge/workflows/X20.md)、[X23](../knowledge/agents/X23.md) | 按需上下文、任务记录、复述确认与成功流程保存 | 对第二个输入验证Skill复用 |
+| 设计与演示 | [X22](../knowledge/design/X22.md)、[X26](../knowledge/design/X26.md)、[X27](../knowledge/design/X27.md) | 先内容结构再视觉；检查PPT可编辑性 | 一个brief做页面与5页PPT |
+| 本机工具接口 | [X17](../knowledge/workflows/X17.md) | Windows-MCP提供状态与操作接口 | 验证宿主连接和一个可逆动作 |
+| 角色驱动 | [X02](../knowledge/animation/X02.md)、[X15](../knowledge/animation/X15.md) | 插画绑定/驱动与灯光参数是不同环节 | 先确认工具与输入输出格式 |
 
 以上是按内容具体程度和可练习性给出的阅读顺序，不是工具性能排名。
 

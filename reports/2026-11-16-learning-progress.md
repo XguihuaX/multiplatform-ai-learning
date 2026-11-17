@@ -8,12 +8,12 @@
 
 | 条目 | 内容类型 | 本轮产出 |
 | --- | --- | --- |
-| [X04](../sources/xiaohongshu/X04.md) | 采访观点 | 分段论点、上下游分析、审批流程练习 |
-| [X05](../sources/xiaohongshu/X05.md) | 配乐信息图 | 确认无讲解，按参数更新与训练目标两轴学习 |
-| [X06](../sources/xiaohongshu/X06.md) | 技术科普/题库推广 | PRM/MCTS归因纠错、数字证据缺口、对照实验设计 |
-| [X07](../sources/xiaohongshu/X07.md) | 知识框架讲解 | 模型/GPU/框架/集群四层路线及缓存概念澄清 |
-| [X08](../sources/xiaohongshu/X08.md) | 英文研究方法分享 | 中文分段笔记、小实验流程、loss主张检验 |
-| [X09](../sources/xiaohongshu/X09.md) | 新品资讯/示例 | 无可用技术口播，保留正文与画面证据 |
+| [X04](../knowledge/business/X04.md) | 采访观点 | 分段论点、上下游分析、审批流程练习 |
+| [X05](../knowledge/research-training/X05.md) | 配乐信息图 | 确认无讲解，按参数更新与训练目标两轴学习 |
+| [X06](../knowledge/research-training/X06.md) | 技术科普/题库推广 | PRM/MCTS归因纠错、数字证据缺口、对照实验设计 |
+| [X07](../knowledge/research-training/X07.md) | 知识框架讲解 | 模型/GPU/框架/集群四层路线及缓存概念澄清 |
+| [X08](../knowledge/research-training/X08.md) | 英文研究方法分享 | 中文分段笔记、小实验流程、loss主张检验 |
+| [X09](../knowledge/design/X09.md) | 新品资讯/示例 | 无可用技术口播，保留正文与画面证据 |
 
 ## 如何理解完成状态
 

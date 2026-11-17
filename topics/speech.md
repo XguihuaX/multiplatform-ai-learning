@@ -6,7 +6,7 @@
 | BreezeTTS2 | 克隆、设计与声音控制 | 参考音频与转写匹配；不同推理模式显存不同 | 整合包与上游同条件比较 |
 | Breeze整合包V3 | 使用便利、切句和速度 | V3属于包的版本语境 | 8G配置与2.3倍基准 |
 
-来源：[AnifLive](https://github.com/Hiruynk/AnifLive-TTS)、[Breeze](https://github.com/breezeblue-ai/breeze-tts)、[B07](../sources/bilibili/B07.md)、[B14](../sources/bilibili/B14.md)、[B21](../sources/bilibili/B21.md)。
+来源：[AnifLive](https://github.com/Hiruynk/AnifLive-TTS)、[Breeze](https://github.com/breezeblue-ai/breeze-tts)、[B07](../knowledge/speech/B07.md)、[B14](../knowledge/speech/B14.md)、[B21](../knowledge/speech/B21.md)。
 
 首音延迟反映等待第一段声音的时间；整句生成速度反映吞吐；显存影响是否能运行；发音与音色稳定性决定可用性。这些指标需同时记录，不能用单个最优数字做选择。
 

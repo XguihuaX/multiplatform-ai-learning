@@ -9,3 +9,5 @@
 - 仓库只收录自写摘要和必要短引文。媒体、登录信息、临时签名链接、原始长篇正文留本地缓存，不提交。
 - 更新 sources/catalog.json 后运行 scripts/build_index.py 刷新索引；专题结论有变化时同步 reports 与 CHANGELOG。
 - 当前为手动维护；没有配置定时同步或自动学习任务。
+
+- 按知识类型组织knowledge目录与主阅读索引，平台仅作溯源字段；sources/catalog.json的note_path指向唯一笔记，跨类内容通过专题链接串联。

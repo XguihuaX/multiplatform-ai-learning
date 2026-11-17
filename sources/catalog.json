@@ -3,7 +3,7 @@
     "id": "B01",
     "source_id": "BV14anA66Eb9",
     "title": "DSH吞噬进化！AI工作台搭建焚决！",
-    "category": "DSH与工作流",
+    "category": "工具与工作流",
     "coverage": "页面简介",
     "summary": "拆解已有AI软件的架构和机制，再选择适合DSH的插件能力组合，形成个人工作台。",
     "verification": "简介提到了拆解与整合，但没有足够的工具清单、架构图和可执行配置。不能据此还原整套工作台。",
@@ -12,13 +12,16 @@
     "platform": "bilibili",
     "url": "https://www.bilibili.com/video/BV14anA66Eb9/",
     "full_video_reviewed": false,
-    "reviewed_at": "2026-11-16"
+    "reviewed_at": "2026-11-16",
+    "note_path": "knowledge/workflows/B01.md",
+    "media_downloaded": true,
+    "media_parts": 1
   },
   {
     "id": "B02",
     "source_id": "BV1nFp46qECm",
     "title": "一键节省大肥鱼40% token花费的dsh插件！",
-    "category": "DSH与工作流",
+    "category": "工具与工作流",
     "coverage": "页面简介＋官方README",
     "summary": "dsh-ops通过精简工具输出、结构化工具和批处理减少无效上下文；Windows shell适配可降低命令错误与重试。",
     "verification": "视频的40%是作者宣传数字，未复测。当前README的0.5系列已包含PTC、动态加载和自有Rust实现，不能套用旧视频安装说明。",
@@ -29,7 +32,10 @@
     "platform": "bilibili",
     "url": "https://www.bilibili.com/video/BV1nFp46qECm/",
     "full_video_reviewed": false,
-    "reviewed_at": "2026-11-16"
+    "reviewed_at": "2026-11-16",
+    "note_path": "knowledge/workflows/B02.md",
+    "media_downloaded": true,
+    "media_parts": 1
   },
   {
     "id": "B03",
@@ -44,7 +50,10 @@
     "platform": "bilibili",
     "url": "https://www.bilibili.com/video/BV1u8WA6XEdk/",
     "full_video_reviewed": false,
-    "reviewed_at": "2026-11-16"
+    "reviewed_at": "2026-11-16",
+    "note_path": "knowledge/animation/B03.md",
+    "media_downloaded": true,
+    "media_parts": 1
   },
   {
     "id": "B04",
@@ -59,7 +68,10 @@
     "platform": "bilibili",
     "url": "https://www.bilibili.com/video/BV126so6BEmC/",
     "full_video_reviewed": false,
-    "reviewed_at": "2026-11-16"
+    "reviewed_at": "2026-11-16",
+    "note_path": "knowledge/animation/B04.md",
+    "media_downloaded": true,
+    "media_parts": 1
   },
   {
     "id": "B05",
@@ -74,7 +86,10 @@
     "platform": "bilibili",
     "url": "https://www.bilibili.com/video/BV1XpsX6eEfT/",
     "full_video_reviewed": false,
-    "reviewed_at": "2026-11-16"
+    "reviewed_at": "2026-11-16",
+    "note_path": "knowledge/agents/B05.md",
+    "media_downloaded": true,
+    "media_parts": 1
   },
   {
     "id": "B06",
@@ -89,7 +104,10 @@
     "platform": "bilibili",
     "url": "https://www.bilibili.com/video/BV1Vzxc6dEwp/",
     "full_video_reviewed": false,
-    "reviewed_at": "2026-11-16"
+    "reviewed_at": "2026-11-16",
+    "note_path": "knowledge/agents/B06.md",
+    "media_downloaded": true,
+    "media_parts": 1
   },
   {
     "id": "B07",
@@ -106,13 +124,16 @@
     "platform": "bilibili",
     "url": "https://www.bilibili.com/video/BV1E1HT63EH2/",
     "full_video_reviewed": false,
-    "reviewed_at": "2026-11-16"
+    "reviewed_at": "2026-11-16",
+    "note_path": "knowledge/speech/B07.md",
+    "media_downloaded": true,
+    "media_parts": 1
   },
   {
     "id": "B08",
     "source_id": "BV1TtpL6SEvg",
     "title": "别随便让AI替你选技术栈！",
-    "category": "DSH与工作流",
+    "category": "工具与工作流",
     "coverage": "页面详细简介＋官方README",
     "summary": "先用真实需求约束技术选择：小型共享记录场景可能用表格就足够，再比较维护成本和增长需求。nagi的architect提供方案比较方法。",
     "verification": "核心可迁移内容是选型流程；视频示例不意味着React、Supabase或Vercel普遍不适合。",
@@ -123,7 +144,10 @@
     "platform": "bilibili",
     "url": "https://www.bilibili.com/video/BV1TtpL6SEvg/",
     "full_video_reviewed": false,
-    "reviewed_at": "2026-11-16"
+    "reviewed_at": "2026-11-16",
+    "note_path": "knowledge/workflows/B08.md",
+    "media_downloaded": true,
+    "media_parts": 1
   },
   {
     "id": "B09",
@@ -138,7 +162,10 @@
     "platform": "bilibili",
     "url": "https://www.bilibili.com/video/BV1kXnu6nEXg/",
     "full_video_reviewed": false,
-    "reviewed_at": "2026-11-16"
+    "reviewed_at": "2026-11-16",
+    "note_path": "knowledge/animation/B09.md",
+    "media_downloaded": true,
+    "media_parts": 2
   },
   {
     "id": "B10",
@@ -155,7 +182,10 @@
     "platform": "bilibili",
     "url": "https://www.bilibili.com/video/BV1ABxs6yEMa/",
     "full_video_reviewed": false,
-    "reviewed_at": "2026-11-16"
+    "reviewed_at": "2026-11-16",
+    "note_path": "knowledge/animation/B10.md",
+    "media_downloaded": true,
+    "media_parts": 1
   },
   {
     "id": "B11",
@@ -170,7 +200,10 @@
     "platform": "bilibili",
     "url": "https://www.bilibili.com/video/BV1DnnZ6iESP/",
     "full_video_reviewed": false,
-    "reviewed_at": "2026-11-16"
+    "reviewed_at": "2026-11-16",
+    "note_path": "knowledge/animation/B11.md",
+    "media_downloaded": true,
+    "media_parts": 1
   },
   {
     "id": "B12",
@@ -187,13 +220,16 @@
     "platform": "bilibili",
     "url": "https://www.bilibili.com/video/BV14mn36aEy6/",
     "full_video_reviewed": false,
-    "reviewed_at": "2026-11-16"
+    "reviewed_at": "2026-11-16",
+    "note_path": "knowledge/design/B12.md",
+    "media_downloaded": true,
+    "media_parts": 1
   },
   {
     "id": "B13",
     "source_id": "BV1Ud436mEKp",
     "title": "Deepseek Harness实时自压缩插件Live-Compact",
-    "category": "DSH与工作流",
+    "category": "工具与工作流",
     "coverage": "页面详细简介",
     "summary": "作者主张在上下文达到高阈值前进行增量小压缩，减少集中压缩造成的中断。",
     "verification": "毫秒级压缩与99%以上缓存命中属于作者说法；尚未定位可核实代码，缓存口径与事实保留率未知。",
@@ -202,7 +238,10 @@
     "platform": "bilibili",
     "url": "https://www.bilibili.com/video/BV1Ud436mEKp/",
     "full_video_reviewed": false,
-    "reviewed_at": "2026-11-16"
+    "reviewed_at": "2026-11-16",
+    "note_path": "knowledge/workflows/B13.md",
+    "media_downloaded": true,
+    "media_parts": 1
   },
   {
     "id": "B14",
@@ -219,7 +258,10 @@
     "platform": "bilibili",
     "url": "https://www.bilibili.com/video/BV1MYec6uEGj/",
     "full_video_reviewed": false,
-    "reviewed_at": "2026-11-16"
+    "reviewed_at": "2026-11-16",
+    "note_path": "knowledge/speech/B14.md",
+    "media_downloaded": true,
+    "media_parts": 1
   },
   {
     "id": "B15",
@@ -236,7 +278,10 @@
     "platform": "bilibili",
     "url": "https://www.bilibili.com/video/BV13hJ26TEZK/",
     "full_video_reviewed": false,
-    "reviewed_at": "2026-11-16"
+    "reviewed_at": "2026-11-16",
+    "note_path": "knowledge/animation/B15.md",
+    "media_downloaded": true,
+    "media_parts": 1
   },
   {
     "id": "B16",
@@ -251,7 +296,10 @@
     "platform": "bilibili",
     "url": "https://www.bilibili.com/video/BV1TkxJ6iEVS/",
     "full_video_reviewed": false,
-    "reviewed_at": "2026-11-16"
+    "reviewed_at": "2026-11-16",
+    "note_path": "knowledge/animation/B16.md",
+    "media_downloaded": true,
+    "media_parts": 1
   },
   {
     "id": "B17",
@@ -266,7 +314,10 @@
     "platform": "bilibili",
     "url": "https://www.bilibili.com/video/BV1viWw6fErL/",
     "full_video_reviewed": false,
-    "reviewed_at": "2026-11-16"
+    "reviewed_at": "2026-11-16",
+    "note_path": "knowledge/animation/B17.md",
+    "media_downloaded": true,
+    "media_parts": 2
   },
   {
     "id": "B18",
@@ -283,7 +334,10 @@
     "platform": "bilibili",
     "url": "https://www.bilibili.com/video/BV1Rbxg6WER5/",
     "full_video_reviewed": false,
-    "reviewed_at": "2026-11-16"
+    "reviewed_at": "2026-11-16",
+    "note_path": "knowledge/agents/B18.md",
+    "media_downloaded": true,
+    "media_parts": 1
   },
   {
     "id": "B19",
@@ -300,13 +354,16 @@
     "platform": "bilibili",
     "url": "https://www.bilibili.com/video/BV1E9xL6kExv/",
     "full_video_reviewed": false,
-    "reviewed_at": "2026-11-16"
+    "reviewed_at": "2026-11-16",
+    "note_path": "knowledge/animation/B19.md",
+    "media_downloaded": true,
+    "media_parts": 1
   },
   {
     "id": "B20",
     "source_id": "BV16sxW6eEzM",
     "title": "超便宜快速的DSH一起看插件",
-    "category": "DSH与工作流",
+    "category": "工具与工作流",
     "coverage": "页面详细简介＋官方README",
     "summary": "watch-together跟随浏览器实际播放时间，向Agent提供带时间戳的字幕与分镜；依赖storyboard的probe、locate、zoom等能力。",
     "verification": "它适合边看边聊，不等于已自动读完整收藏。README有Node、ffmpeg、yt-dlp、登录素材和可选ASR依赖；TTS需另接。",
@@ -317,7 +374,10 @@
     "platform": "bilibili",
     "url": "https://www.bilibili.com/video/BV16sxW6eEzM/",
     "full_video_reviewed": false,
-    "reviewed_at": "2026-11-16"
+    "reviewed_at": "2026-11-16",
+    "note_path": "knowledge/workflows/B20.md",
+    "media_downloaded": true,
+    "media_parts": 1
   },
   {
     "id": "B21",
@@ -334,7 +394,10 @@
     "platform": "bilibili",
     "url": "https://www.bilibili.com/video/BV1vsWt6AEuy/",
     "full_video_reviewed": false,
-    "reviewed_at": "2026-11-16"
+    "reviewed_at": "2026-11-16",
+    "note_path": "knowledge/speech/B21.md",
+    "media_downloaded": true,
+    "media_parts": 1
   },
   {
     "id": "B22",
@@ -349,7 +412,10 @@
     "platform": "bilibili",
     "url": "https://www.bilibili.com/video/BV18Bx96TE3w/",
     "full_video_reviewed": false,
-    "reviewed_at": "2026-11-16"
+    "reviewed_at": "2026-11-16",
+    "note_path": "knowledge/agents/B22.md",
+    "media_downloaded": true,
+    "media_parts": 1
   },
   {
     "id": "B23",
@@ -364,7 +430,10 @@
     "platform": "bilibili",
     "url": "https://www.bilibili.com/video/BV1n3Wz6rEzk/",
     "full_video_reviewed": false,
-    "reviewed_at": "2026-11-16"
+    "reviewed_at": "2026-11-16",
+    "note_path": "knowledge/animation/B23.md",
+    "media_downloaded": true,
+    "media_parts": 2
   },
   {
     "id": "X01",
@@ -384,7 +453,8 @@
     "media_downloaded": true,
     "visual_evidence": ".cache/frames/X01/index.json",
     "audio_notes": "0–12秒以反对无脑铺货开场；14–26秒推荐按地区查海外仓物流和平台运营资源；27–49秒列选品、刊登、美工与多店环境工具。学习价值是把跨境运营拆为资源、选品、上架、素材、店铺环境五环节。内容没有展示这些工具的实际使用步骤，标题“一个人干不成”也未给出严谨论证。转写中的产品拼写需以画面或官网为准。",
-    "transcript_evidence": ".cache/transcripts/X01.json"
+    "transcript_evidence": ".cache/transcripts/X01.json",
+    "note_path": "knowledge/business/X01.md"
   },
   {
     "id": "X02",
@@ -404,7 +474,8 @@
     "media_downloaded": true,
     "visual_evidence": ".cache/frames/X02/index.json",
     "audio_notes": "2–10秒介绍从正面插画自动分割与五官绑定；14–19秒调眨眼、嘴型、头发尾巴及时间轴；21–27秒分别描述配音驱动嘴型和摄像头/麦克风实时跟踪；28–30秒称可把地址加入OBS浏览器源。可学习的是素材准备→绑定→动作调节→驱动→直播接入的链路；本片没有展开安装与失败处理。",
-    "transcript_evidence": ".cache/transcripts/X02.json"
+    "transcript_evidence": ".cache/transcripts/X02.json",
+    "note_path": "knowledge/animation/X02.md"
   },
   {
     "id": "X03",
@@ -424,7 +495,8 @@
     "media_downloaded": true,
     "visual_evidence": ".cache/frames/X03/index.json",
     "audio_notes": "8–34秒依次介绍文献、假设、代码、实验、模拟评审和修订；38–44秒给出86任务、25.2%提升并夸大到刷新人类科研最高水准。对照原项目应记为107任务中86个超过基线，25.2%为项目报告的平均相对增益；不能把模拟评审写为真实会议接收。适合学习科研工作流分工和反馈循环。",
-    "transcript_evidence": ".cache/transcripts/X03.json"
+    "transcript_evidence": ".cache/transcripts/X03.json",
+    "note_path": "knowledge/research-training/X03.md"
   },
   {
     "id": "X04",
@@ -445,7 +517,8 @@
     "visual_evidence": ".cache/frames/X04/index.json",
     "audio_notes": "- 00:28–01:42：受访者介绍工业制造和集团自有资金投资背景；机构名称转写不清，不据此确认身份。\n- 02:10–03:34：讨论家政/护理岗位的社会评价、职业分级与技术价值，属于受访者观点。\n- 03:38–04:54：以网约车从业人数、快递包装和回收举例，提出需求转移会带来上下游机会。没有提供行业统计。\n- 05:30–05:55：认为AI会减少中层审批与信息传递环节，并进一步预测中间层岗位消失。可用于提出流程分析问题，不能据此判定所有中层岗位都会被替代。",
     "transcript_evidence": ".cache/transcripts/X04.json",
-    "learning_status": "已完成本轮内容整理（全段ASR＋关键帧抽样），未实机复现"
+    "learning_status": "已完成本轮内容整理（全段ASR＋关键帧抽样），未实机复现",
+    "note_path": "knowledge/business/X04.md"
   },
   {
     "id": "X05",
@@ -466,7 +539,8 @@
     "visual_evidence": ".cache/frames/X05/index.json",
     "audio_notes": "全段约15秒，ASR仅输出音乐标记，没有识别到讲解。结合各时点相同的信息图，本条学习内容来自图中文字，不把背景音乐转写成知识。",
     "transcript_evidence": ".cache/transcripts/X05.json",
-    "learning_status": "已完成本轮内容整理（全段ASR＋关键帧抽样），未实机复现"
+    "learning_status": "已完成本轮内容整理（全段ASR＋关键帧抽样），未实机复现",
+    "note_path": "knowledge/research-training/X05.md"
   },
   {
     "id": "X06",
@@ -490,7 +564,8 @@
     "visual_evidence": ".cache/frames/X06/index.json",
     "audio_notes": "- 00:00–00:31：用7B模型准确率30%到70%的例子引入问题；未交代数据集、训练配置与评测方式。\n- 00:49–02:14：提醒最终答案正确不等于中间步骤可靠，教师输出与学生容量可能不匹配。这些可以转成实验检查项。\n- 02:32–03:00：把R1拒绝采样、PRM逐步筛选和MCTS自动标注连成一条成功路径。原论文不支持这种归因。\n- 03:00–03:48：介绍由短到长的课程学习和推理/通用数据配比；视频没有给出支持其R1归因的来源。\n- 04:44–05:24：列出筛选器偏差、难度排序、遗忘和师生分布不匹配风险。\n- 05:34–06:39：再次宣称固定组合可保证学到推理能力。应改成待实验验证的设计，观察未见题泛化和通用能力变化。",
     "transcript_evidence": ".cache/transcripts/X06.json",
-    "learning_status": "已完成本轮内容整理（全段ASR＋关键帧抽样），未实机复现"
+    "learning_status": "已完成本轮内容整理（全段ASR＋关键帧抽样），未实机复现",
+    "note_path": "knowledge/research-training/X06.md"
   },
   {
     "id": "X07",
@@ -513,7 +588,8 @@
     "visual_evidence": ".cache/frames/X07/index.json",
     "audio_notes": "- 00:26–01:38 模型层：跟踪token到embedding、归一化、attention的计算，手算每个节点的张量shape，并理解参数量。\n- 01:41–02:58 GPU层：区分计算和数据搬运，关注显存容量、带宽、线程/warp和算子实现。视频以常见GPU架构作简化说明。\n- 03:01–03:56 框架层：框架组织算子，区分prefill和decode，解释首token等待TTFT与后续token耗时TPOT。\n- 03:58–04:49 服务优化：多请求批处理与调度、KV cache、prefix caching、chunked prefill以及精度取舍。\n- 04:50–06:39 集群层：从单卡到多卡、多机扩展，关注互联和AllGather/AllReduce等通信开销。规模增加不能自动保证线性提速。\n\nASR术语已按语境整理：large angry model→large language model，VLM/SG Lump→vLLM/SGLang，PerfectCache→prefix cache，trunk refill→chunked prefill。",
     "transcript_evidence": ".cache/transcripts/X07.json",
-    "learning_status": "已完成本轮内容整理（全段ASR＋关键帧抽样），未实机复现"
+    "learning_status": "已完成本轮内容整理（全段ASR＋关键帧抽样），未实机复现",
+    "note_path": "knowledge/research-training/X07.md"
   },
   {
     "id": "X08",
@@ -534,7 +610,8 @@
     "visual_evidence": ".cache/frames/X08/index.json",
     "audio_notes": "- 00:00–01:15：作者称几天形成可投ICML的论文草稿，提出大小不同的两个loss相加会伤害小loss目标的假设。\n- 01:16–03:04：主张将问题缩成5–10秒的小实验，改变深度、宽度、词表等因素；承认没有做大规模训练。\n- 03:33–05:05：起点是世界模型中两个对象应共用网络还是分别建模；先猜速度差，再转为loss差。\n- 05:05–07:09：反复要求AI回到单一解释，用消融检查运动速度、容量和loss大小等候选因素。\n- 08:11–10:07：先限定研究方向与实验设施，再让AI自主搜索；必要时修改公式或缩小适用范围。\n- 10:14–11:08：强调小实验反馈速度，但没有提供足以验证全部结论的论文公式、代码和大规模结果。",
     "transcript_evidence": ".cache/transcripts/X08.json",
-    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现"
+    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现",
+    "note_path": "knowledge/research-training/X08.md"
   },
   {
     "id": "X09",
@@ -557,7 +634,8 @@
     "visual_evidence": ".cache/frames/X09/index.json",
     "audio_notes": "本地ASR仅返回一句英语结束语，没有提取到可用技术讲解，可能是背景音识别误差。学习内容仍来自正文及新闻卡片/示例画面；不据这条ASR补造口播。",
     "transcript_evidence": ".cache/transcripts/X09.json",
-    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现"
+    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现",
+    "note_path": "knowledge/design/X09.md"
   },
   {
     "id": "X10",
@@ -578,7 +656,8 @@
     "visual_evidence": ".cache/frames/X10/index.json",
     "audio_notes": "00:60–04:59：依次讲token共现表、可学习向量表、hidden-state检索、近邻token分布与文本检索入prompt。不同方案接入模型的位置不同。\n05:18–09:54：以Alice母亲Maria出生在Rome为例，提出句子表、稀有词加权匹配和候选token分数加成。讲述省略了多跳检索怎样从第一句抵达第二句的严格机制，不能仅凭示例认定解决了多跳推理。\n09:54–11:12：承认只在小模型、虚构事实和任务上测试；大规模、冲突事实与新颖性未确认。\n11:12–14:57：要求AI补公平基线，反复追问实验是否有效、是否只测训练loss而没有记忆任务评测。最终没有完成论文。",
     "transcript_evidence": ".cache/transcripts/X10.json",
-    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现"
+    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现",
+    "note_path": "knowledge/research-training/X10.md"
   },
   {
     "id": "X11",
@@ -599,7 +678,8 @@
     "visual_evidence": ".cache/frames/X11/index.json",
     "audio_notes": "00:11–00:27：称运营工位每天挖掘约1000名达人、触达约200名，属于作者自报。00:27–00:46：展示安卓电视、ADB投屏和NAS。00:46–01:34：介绍旧笔记本上的独立账号、生活人设及多种线上动作。01:34后把效果归因于自己的上层模型反复指导，未展示训练方式。",
     "transcript_evidence": ".cache/transcripts/X11.json",
-    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现"
+    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现",
+    "note_path": "knowledge/business/X11.md"
   },
   {
     "id": "X12",
@@ -623,7 +703,8 @@
     "visual_evidence": ".cache/frames/X12/index.json",
     "audio_notes": "00:46–01:38：讨论轨迹质量和学生容量。01:44–02:28：把拒绝采样、PRM、MCTS和课程学习归于R1。02:31–04:34：扩展到数学、代码、Agent轨迹，列出偏差和遗忘风险。核心内容与X06一致，本条没有提供新的实验依据。",
     "transcript_evidence": ".cache/transcripts/X12.json",
-    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现"
+    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现",
+    "note_path": "knowledge/research-training/X12.md"
   },
   {
     "id": "X13",
@@ -644,13 +725,14 @@
     "visual_evidence": ".cache/frames/X13/index.json",
     "audio_notes": "00:00–02:23：宣传业绩提升和单人加AI组织方式。03:16–04:50：逐日讨论余额不足、预算耗尽和广告计划断流。04:52–05:37：称把自己的策略交给Codex，增加消耗、关闭低回报计划。05:39–08:00：后续建议强依赖作者所说的平台赔付/保护机制，并给出订单门槛与投产数字。视频没有给出可核验的具体政策条款和适用账号条件。",
     "transcript_evidence": ".cache/transcripts/X13.json",
-    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现"
+    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现",
+    "note_path": "knowledge/business/X13.md"
   },
   {
     "id": "X14",
     "source_id": "6ae89490000000003503217c",
     "title": "分享几款我们团队在用的AI工具",
-    "category": "DSH与工作流",
+    "category": "工具与工作流",
     "coverage": "正文标签＋本地视频关键帧抽样＋全段本地ASR审读/音轨检查",
     "summary": "团队工具推荐，覆盖模型分工、设计参考、Agent群聊和云手机环境；主要是使用感受与场景介绍，没有可复现横向测评。",
     "verification": "口播中的PACHAT.ai、Geelark等拼写只作线索，尚未逐项核对官网；模型领先一代和不再封号的断言没有比较或平台政策支持。",
@@ -665,7 +747,8 @@
     "visual_evidence": ".cache/frames/X14/index.json",
     "audio_notes": "00:09–00:47：主张不同模型分担任务；型号ASR含混。00:49–01:19：介绍Mobbin设计截图参考与MCP链路。01:22–02:29：介绍Agent群聊以减少人工转发，并以团建讨论举例。02:31–03:12：介绍云手机管理多个社交账号环境。",
     "transcript_evidence": ".cache/transcripts/X14.json",
-    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现"
+    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现",
+    "note_path": "knowledge/workflows/X14.md"
   },
   {
     "id": "X15",
@@ -686,7 +769,8 @@
     "visual_evidence": ".cache/frames/X15/index.json",
     "audio_notes": "约32秒音轨的ASR只识别出零散英文you，没有可用讲解；知识来自已读关键帧中的Relight面板和灯光变化。",
     "transcript_evidence": ".cache/transcripts/X15.json",
-    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现"
+    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现",
+    "note_path": "knowledge/animation/X15.md"
   },
   {
     "id": "X16",
@@ -707,13 +791,14 @@
     "visual_evidence": ".cache/frames/X16/index.json",
     "audio_notes": "00:06–00:12：列举媒体、电子书、游戏及AI资源分类。00:13–00:19：强调关键词检索和持续更新。没有展示商业经营或自动化操作。",
     "transcript_evidence": ".cache/transcripts/X16.json",
-    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现"
+    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现",
+    "note_path": "knowledge/resources/X16.md"
   },
   {
     "id": "X17",
     "source_id": "6aedd77a000000002c004c83",
     "title": "释放双手，让AI全权接管电脑",
-    "category": "DSH与工作流",
+    "category": "工具与工作流",
     "coverage": "正文标签＋本地视频关键帧抽样＋全段本地ASR审读/音轨检查",
     "summary": "Windows-MCP把Windows界面状态与操作封装成可调用工具，说明文本模型也可在工具提供足够状态信息时参与电脑操作。后半段为另一产品的安装推广。",
     "verification": "画面和此前官方README已确认CursorTouch/Windows-MCP；视觉可选不等于所有界面均可由文本准确识别。需宿主接入MCP及本机工具环境，单有DS/Qwen模型不够。",
@@ -730,13 +815,14 @@
     "visual_evidence": ".cache/frames/X17/index.json",
     "audio_notes": "00:08–00:27：介绍通过MCP让模型读取系统并调用工具，强调不强制依赖视觉模型。00:28–00:42：提及Windows兼容性、MIT及百度搭子推广；没有完整操作案例和成功率测量。",
     "transcript_evidence": ".cache/transcripts/X17.json",
-    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现"
+    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现",
+    "note_path": "knowledge/workflows/X17.md"
   },
   {
     "id": "X18",
     "source_id": "6aecd159000000000e00e359",
     "title": "Harness深度解析（上）：从工作几秒到连续数周",
-    "category": "DSH与工作流",
+    "category": "工具与工作流",
     "coverage": "完整正文＋本地视频关键帧抽样＋全段本地ASR审读/音轨检查",
     "summary": "Harness课程上集主要讲上下文按需读取、文件化流程、规则与检索记忆，结尾才引入工具调用；没有在本集展示连续运行数周的系统。",
     "verification": "可借鉴按需检索和流程固化。视频对具体模型窗口、硬件内部向量库和节省比例没有明确来源，暂不采信；RAG是检索与生成的组合，不等同于向量库，也不要求把向量直接喂给模型。Skill可包含脚本和资源，仅称其都是提示词不足以解释执行能力。",
@@ -754,7 +840,8 @@
     "visual_evidence": ".cache/frames/X18/index.json",
     "audio_notes": "00:54–05:27：讨论上下文容量和实际利用能力，强调按当前任务找相关文件。05:29–08:04：用帖子收集与报告流程解释Skill和持续规则，将其描述为按时机加载的指令。08:04–12:30：讨论外部文件、RAG与所谓内部记忆。12:32–14:15：引出工具调用，并明确完整工具/循环机制在下一集。",
     "transcript_evidence": ".cache/transcripts/X18.json",
-    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现"
+    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现",
+    "note_path": "knowledge/workflows/X18.md"
   },
   {
     "id": "X19",
@@ -778,13 +865,14 @@
     "visual_evidence": ".cache/frames/X19/index.json",
     "audio_notes": "00:01–00:15：描述自动科研流程；00:17–00:22：再次使用86任务和25.2%增益的简化宣传；后段主要讨论科研职业影响。没有新增部署或实验步骤。",
     "transcript_evidence": ".cache/transcripts/X19.json",
-    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现"
+    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现",
+    "note_path": "knowledge/research-training/X19.md"
   },
   {
     "id": "X20",
     "source_id": "6ae1c7680000000023011142",
     "title": "Codex使用必做动作",
-    "category": "DSH与工作流",
+    "category": "工具与工作流",
     "coverage": "正文标签＋本地视频关键帧抽样＋全段本地ASR审读/音轨检查",
     "summary": "静态提示词卡建议用Obsidian记录跨项目偏好、决策与任务，并在工作前检索、定期整理。适合借鉴记录字段。",
     "verification": "内容已经从画面提取；一段提示词本身不能建立持久存储、检索和调度。卡片中的定时和全量记录指令仅作为素材阅读，未执行。",
@@ -799,7 +887,8 @@
     "visual_evidence": ".cache/frames/X20/index.json",
     "audio_notes": "约13秒ASR只有无法解释的短词，没有可用口播。画面卡片提出日整理与周复盘，但没有演示定时任务或检索机制。",
     "transcript_evidence": ".cache/transcripts/X20.json",
-    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现"
+    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现",
+    "note_path": "knowledge/workflows/X20.md"
   },
   {
     "id": "X21",
@@ -820,7 +909,8 @@
     "visual_evidence": ".cache/frames/X21/index.json",
     "audio_notes": "约7秒ASR只有通用英文结束语，可能为背景音误识别；核心信息取自已读文字卡：每日10条、每月300条，以及月入2万元的目标。",
     "transcript_evidence": ".cache/transcripts/X21.json",
-    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现"
+    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现",
+    "note_path": "knowledge/business/X21.md"
   },
   {
     "id": "X22",
@@ -843,7 +933,8 @@
     "visual_evidence": ".cache/frames/X22/index.json",
     "audio_notes": "00:00–00:08：展示设计效果和细节规范。00:10–00:20：产品、受众→页面结构与文案→视觉一致性。00:21–00:33：内容入场、菜单展开、悬停反馈等动效。未给出完整代码实践。",
     "transcript_evidence": ".cache/transcripts/X22.json",
-    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现"
+    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现",
+    "note_path": "knowledge/design/X22.md"
   },
   {
     "id": "X23",
@@ -864,7 +955,8 @@
     "visual_evidence": ".cache/frames/X23/index.json",
     "audio_notes": "00:31 总管Agent设计和检查其他角色。00:56 减少角色数量，先做好少数任务。01:13 成功流程保存成操作手册。01:43 独立邮箱与工作账号。01:59 识别并减少复制粘贴。02:13 像新同事一样说明背景和职责。02:35 用语音充分表达，再要求AI复述以检查理解。",
     "transcript_evidence": ".cache/transcripts/X23.json",
-    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现"
+    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现",
+    "note_path": "knowledge/agents/X23.md"
   },
   {
     "id": "X24",
@@ -885,7 +977,8 @@
     "visual_evidence": ".cache/frames/X24/index.json",
     "audio_notes": "01:13–02:58：从专业运营流程提取步骤，接API，再给终端Agent加业务前端和巡检入口。02:59–05:22：选品结合竞争、搜索词、评论和单位经济模型；供应商联系仍有未自动化环节，用户也凭行业经验判断推荐。05:23–07:10：生成Listing、填写物流模板、用3D装箱检查空间，并追踪丢件赔偿。07:11–08:28：将参考图拆为布局与内容模块，按编号修改A+图。08:29–09:08：广告尽量一次改一个变量，观察数天后评估；需要时人工调整。09:09后讨论经营成果与服务商分工。",
     "transcript_evidence": ".cache/transcripts/X24.json",
-    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现"
+    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现",
+    "note_path": "knowledge/business/X24.md"
   },
   {
     "id": "X25",
@@ -906,7 +999,8 @@
     "visual_evidence": ".cache/frames/X25/index.json",
     "audio_notes": "00:06–00:26：以海外文案转视频产品及自报月收入举例。00:32–00:55：描述某收入公开站通过只读收款连接获取指标。01:02–01:32：依次解释广告效应、博主报道、分销招募与估值依据。01:33后表达自己的出海计划。",
     "transcript_evidence": ".cache/transcripts/X25.json",
-    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现"
+    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现",
+    "note_path": "knowledge/business/X25.md"
   },
   {
     "id": "X26",
@@ -929,7 +1023,8 @@
     "visual_evidence": ".cache/frames/X26/index.json",
     "audio_notes": "00:00–00:10：强调开源、星标与可编辑性。00:11–00:24：以百度搭子为操作入口展示装技能、写要求和生成成品。没有详细讲依赖或失败排查。",
     "transcript_evidence": ".cache/transcripts/X26.json",
-    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现"
+    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现",
+    "note_path": "knowledge/design/X26.md"
   },
   {
     "id": "X27",
@@ -952,6 +1047,7 @@
     "visual_evidence": ".cache/frames/X27/index.json",
     "audio_notes": "00:03–00:12：介绍开源Skill及从零组织落地页。00:12–00:18：介绍静态设计转产品动效及Agent工具适配的宣传。项目身份通过画面中的仓库确认，未依赖口播人名误识别。",
     "transcript_evidence": ".cache/transcripts/X27.json",
-    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现"
+    "learning_status": "已完成本轮内容整理（全段ASR检查＋关键帧抽样），未实机复现",
+    "note_path": "knowledge/design/X27.md"
   }
 ]

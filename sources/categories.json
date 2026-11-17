@@ -1,0 +1,50 @@
+[
+  {
+    "name": "工具与工作流",
+    "slug": "workflows",
+    "topic": "workflows.md",
+    "description": "工具集成、Skill、MCP、上下文管理与任务执行"
+  },
+  {
+    "name": "Agent与记忆",
+    "slug": "agents",
+    "topic": "agents.md",
+    "description": "身份、记忆检索、调度与持续运行"
+  },
+  {
+    "name": "科研与模型训练",
+    "slug": "research-training",
+    "topic": "research-training.md",
+    "description": "实验设计、微调、蒸馏、AI Infra与科研方法"
+  },
+  {
+    "name": "设计与内容制作",
+    "slug": "design",
+    "topic": "design.md",
+    "description": "网页、PPT、图像与内容设计"
+  },
+  {
+    "name": "语音合成",
+    "slug": "speech",
+    "topic": "speech.md",
+    "description": "音色克隆、情绪控制、延迟与配音"
+  },
+  {
+    "name": "3D与动画",
+    "slug": "animation",
+    "topic": "animation.md",
+    "description": "建模、角色驱动、表情、物理与视频衔接"
+  },
+  {
+    "name": "商业与组织",
+    "slug": "business",
+    "topic": "business.md",
+    "description": "业务Agent、跨境运营、组织协作与商业案例"
+  },
+  {
+    "name": "资源与检索",
+    "slug": "resources",
+    "topic": "resources.md",
+    "description": "资源导航、资料定位与来源检索"
+  }
+]

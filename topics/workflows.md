@@ -23,11 +23,11 @@
 
 选一个小任务，固定输入、验收条件和模型配置。记录成功率、工具次数、输入输出tokens、耗时与返工原因。先用这些指标判断插件是否有价值，再对照40%节省、20倍速度等宣传数字。
 
-关联：[B01](../sources/bilibili/B01.md)、[B02](../sources/bilibili/B02.md)、[B08](../sources/bilibili/B08.md)、[B13](../sources/bilibili/B13.md)、[B20](../sources/bilibili/B20.md)、[X18](../sources/xiaohongshu/X18.md)。
+关联：[B01](../knowledge/workflows/B01.md)、[B02](../knowledge/workflows/B02.md)、[B08](../knowledge/workflows/B08.md)、[B13](../knowledge/workflows/B13.md)、[B20](../knowledge/workflows/B20.md)、[X18](../knowledge/workflows/X18.md)。
 
 ## Harness上集补读结论
 
-[X18](../sources/xiaohongshu/X18.md)主要解释上下文与记忆，工具执行和自主循环留到下集。因此本条提供概念入口，不能直接照做出连续运行数周的系统。可借鉴按任务检索文件、复用标准流程、保存进度和下一步。
+[X18](../knowledge/workflows/X18.md)主要解释上下文与记忆，工具执行和自主循环留到下集。因此本条提供概念入口，不能直接照做出连续运行数周的系统。可借鉴按任务检索文件、复用标准流程、保存进度和下一步。
 
 对照[Anthropic上下文工程说明](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)，关键是持续管理系统指令、工具、外部数据与历史，选择当前步骤所需内容。[RAG原论文](https://arxiv.org/abs/2005.11401)描述检索与生成相结合；向量索引只是其中一种实现组件。视频中的模型窗口历史和内部硬件记忆说法暂不作为技术事实。
 

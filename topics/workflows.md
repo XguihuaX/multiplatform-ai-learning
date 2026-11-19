@@ -25,7 +25,7 @@
 
 选一个小任务，固定输入、验收条件和模型配置。记录成功率、工具次数、输入输出tokens、耗时与返工原因。先用这些指标判断插件是否有价值，再对照40%节省、20倍速度等宣传数字。
 
-关联：[B01](../knowledge/workflows/B01.md)、[B02](../knowledge/workflows/B02.md)、[B08](../knowledge/workflows/B08.md)、[B13](../knowledge/workflows/B13.md)、[B20](../knowledge/workflows/B20.md)、[X18](../knowledge/workflows/X18.md)。
+关联：[B01](../knowledge/dsh/B01.md)、[B02](../knowledge/dsh/B02.md)、[B08](../knowledge/workflows/B08.md)、[B13](../knowledge/dsh/B13.md)、[B20](../knowledge/dsh/B20.md)、[X18](../knowledge/workflows/X18.md)。
 
 ## Harness上集补读结论
 

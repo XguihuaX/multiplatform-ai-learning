@@ -44,14 +44,14 @@ for x in items:
 
 nav = ['# 从这里开始学习', '',
        '教程按知识类型组织。先读下面的学习正文，再按需展开素材记录；每章包含概念解释、实例和自测答案。', '',
-       '**本轮重点详解：低延迟语音、网页设计、Skill与工作流。** 其余章节提供跨素材的基础讲解与设计案例；尚未展开的具体项目操作与B站长课程，不计作已完成教程。', '',
+       '想搭建大肥鱼，可先读 [DSH 教程](../lessons/dsh.md)，再按问题查[插件与角色资料](../topics/dsh.md)。语音、网页设计、Skill 与工作流也有独立的实践章节。', '',
        '| 学习正文 | 读完可以做什么 | 本章深度 |', '| --- | --- | --- |']
 for c in categories:
     nav.append(f"| [{c['lesson_title']}](../{c['lesson_path']}) | {c['learning_outcome']} | {c['lesson_depth']} |")
 nav += ['', '## 推荐阅读顺序', '',
         '想做新东西：先读语音章节，按固定句子WAV、流式播放、LLM短句队列逐步实现；再读动画章节给角色接嘴型。想搭学习系统：先读工作流，再读Agent与记忆。想做展示页面：直接读网页设计。', '',
         '## 收藏素材与原始出处', '',
-        '共50项：B站23项、小红书27项。下列阅读范围是素材处理记录，不等同于对应完整课程已经写成讲义。', '']
+        f'共{len(items)}项：B站{sum(x["platform"] == "bilibili" for x in items)}项、小红书{sum(x["platform"] == "xiaohongshu" for x in items)}项。下列阅读范围是素材处理记录，不等同于对应完整课程已经写成讲义。', '']
 for c in categories:
     group = [x for x in items if x['category'] == c['name']]
     nav += [f'<details>\n<summary>{c["name"]} · {len(group)}项素材</summary>', '',
@@ -61,6 +61,6 @@ for c in categories:
     nav += ['', '</details>', '']
 (ROOT / 'knowledge/README.md').write_text('\n'.join(nav).rstrip() + '\n')
 (ROOT / 'sources/README.md').write_text('# 素材登记\n\n学习请从[教程索引](../knowledge/README.md)进入。\n\n'
-    'catalog.json保存50项素材的稳定ID、原链接、主分类、笔记路径和阅读证据。categories.json指定各类的手写教程路径、学习目标与深度。\n\n'
+    f'catalog.json保存{len(items)}项素材的稳定ID、原链接、主分类、笔记路径和阅读证据。categories.json指定各类的手写教程路径、学习目标与深度。\n\n'
     'lessons目录保存手写正文，生成器只读取它。指定lesson_body_path的素材页会内嵌对应教程，其余素材页链接到教程。媒体、原始长篇转写与签名链接留在本地缓存。\n')
 print(f'Generated {len(items)} source pages and {len(categories)} lesson links; platforms: {dict(Counter(x["platform"] for x in items))}')

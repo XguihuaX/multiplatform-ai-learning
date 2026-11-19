@@ -2,10 +2,11 @@
 
 教程按知识类型组织。先读下面的学习正文，再按需展开素材记录；每章包含概念解释、实例和自测答案。
 
-**本轮重点详解：低延迟语音、网页设计、Skill与工作流。** 其余章节提供跨素材的基础讲解与设计案例；尚未展开的具体项目操作与B站长课程，不计作已完成教程。
+想搭建大肥鱼，可先读 [DSH 教程](../lessons/dsh.md)，再按问题查[插件与角色资料](../topics/dsh.md)。语音、网页设计、Skill 与工作流也有独立的实践章节。
 
 | 学习正文 | 读完可以做什么 | 本章深度 |
 | --- | --- | --- |
+| [DSH：从工作台到陪伴角色](../lessons/dsh.md) | 搭建鲸鱼娘，区分场景人格与推理前缀，定位视觉和用量问题 | 搭建教程、插件清单与对照练习 |
 | [把需求变成Skill与工作流](../lessons/workflows.md) | 写出有输入、输出和恢复路径的Skill；设计YonWORK工具接口 | 完整流程示例 |
 | [Agent任务续接与长期记忆](../lessons/agents.md) | 区分上下文、任务状态与知识；设计可恢复任务 | 原理与设计案例 |
 | [训练方法、Infra与最小实验](../lessons/research-training.md) | 区分微调维度，设计有对照的蒸馏/检索实验 | 概念与实验设计 |
@@ -21,18 +22,35 @@
 
 ## 收藏素材与原始出处
 
-共50项：B站23项、小红书27项。下列阅读范围是素材处理记录，不等同于对应完整课程已经写成讲义。
+共54项：B站27项、小红书27项。下列阅读范围是素材处理记录，不等同于对应完整课程已经写成讲义。
 
 <details>
-<summary>工具与工作流 · 9项素材</summary>
+<summary>DSH · 13项素材</summary>
 
 | 素材记录 | 实际阅读范围 |
 | --- | --- |
-| [B01 · DSH吞噬进化！AI工作台搭建焚决！](workflows/B01.md) | 页面简介 |
-| [B02 · 一键节省大肥鱼40% token花费的dsh插件！](workflows/B02.md) | 页面简介＋官方README |
+| [B01 · DSH吞噬进化！AI工作台搭建焚决！](dsh/B01.md) | 页面简介 |
+| [B02 · 一键节省大肥鱼40% token花费的dsh插件！](dsh/B02.md) | 页面简介＋官方README |
+| [B05 · 动态记忆？嵌套学习？我解决了大肥鱼的记忆死亡难题](dsh/B05.md) | 页面简介 |
+| [B06 · 自主意图？自我意识？让大肥鱼真正的活下去……](dsh/B06.md) | 页面简介 |
+| [B12 · 更强的设计能力！DSH Oil UI插件来了！](dsh/B12.md) | 页面简介＋官方README |
+| [B13 · Deepseek Harness实时自压缩插件Live-Compact](dsh/B13.md) | 页面详细简介 |
+| [B15 · DSH直连Blender插件与视觉反馈](dsh/B15.md) | 页面详细简介＋官方README |
+| [B18 · 一个有“自主意识”的DeepSeek插件：SurfCore](dsh/B18.md) | 页面详细简介＋官方README |
+| [B20 · 超便宜快速的DSH一起看插件](dsh/B20.md) | 页面详细简介＋官方README |
+| [B24 · 不改提示词也能去人机味？为什么说大肥鱼的尽头是猫娘……](dsh/B24.md) | 页面简介、约00:07至03:06分段抽看画面与内嵌字幕、官方接口文档 |
+| [B25 · 给她一双眼睛，让她看清世界！【B站AI创造公开赛】](dsh/B25.md) | 视频画面、内嵌文字、系列目录与配套资料列表 |
+| [B26 · DeepSeek Harness 大肥鱼终极教程：新手进阶/插件生态/界面美化/手机端互通/全能鲸鱼娘【附完整文档】](dsh/B26.md) | 全片章节、跨全时长预览帧与内嵌字幕抽样、作者置顶更正、SurfCore 文档 |
+| [B27 · 【小众好用】有哪些DeepSeek好用的必装插件？如何榨干 DeepSeek Harness所有性能？DSH插件安装指南！](dsh/B27.md) | 全片章节、跨全时长预览帧与内嵌字幕抽样、片尾九项清单 |
+
+</details>
+
+<details>
+<summary>工具与工作流 · 5项素材</summary>
+
+| 素材记录 | 实际阅读范围 |
+| --- | --- |
 | [B08 · 别随便让AI替你选技术栈！](workflows/B08.md) | 页面简介＋完整本地ASR审读 |
-| [B13 · Deepseek Harness实时自压缩插件Live-Compact](workflows/B13.md) | 页面详细简介 |
-| [B20 · 超便宜快速的DSH一起看插件](workflows/B20.md) | 页面详细简介＋官方README |
 | [X14 · 分享几款我们团队在用的AI工具](workflows/X14.md) | 正文标签＋本地视频关键帧抽样＋全段本地ASR审读/音轨检查 |
 | [X17 · 释放双手，让AI全权接管电脑](workflows/X17.md) | 正文标签＋本地视频关键帧抽样＋全段本地ASR审读/音轨检查 |
 | [X18 · Harness深度解析（上）：从工作几秒到连续数周](workflows/X18.md) | 完整正文＋本地视频关键帧抽样＋全段本地ASR审读/音轨检查 |
@@ -41,13 +59,10 @@
 </details>
 
 <details>
-<summary>Agent与记忆 · 5项素材</summary>
+<summary>Agent与记忆 · 2项素材</summary>
 
 | 素材记录 | 实际阅读范围 |
 | --- | --- |
-| [B05 · 动态记忆？嵌套学习？我解决了大肥鱼的记忆死亡难题](agents/B05.md) | 页面简介 |
-| [B06 · 自主意图？自我意识？让大肥鱼真正的活下去……](agents/B06.md) | 页面简介 |
-| [B18 · 一个有“自主意识”的DeepSeek插件：SurfCore](agents/B18.md) | 页面详细简介＋官方README |
 | [B22 · 致B站所有AI的第一课：记忆、人格、自进化、多agent协作](agents/B22.md) | 页面详细简介 |
 | [X23 · 文科生如何成为Grok负责人？](agents/X23.md) | 正文标签＋平台AI评论片段＋本地视频关键帧抽样＋全段本地ASR审读/音轨检查 |
 
@@ -70,11 +85,10 @@
 </details>
 
 <details>
-<summary>设计与内容制作 · 5项素材</summary>
+<summary>设计与内容制作 · 4项素材</summary>
 
 | 素材记录 | 实际阅读范围 |
 | --- | --- |
-| [B12 · 更强的设计能力！DSH Oil UI插件来了！](design/B12.md) | 页面简介＋官方README |
 | [X09 · 10秒出一张4K图：MiniMax H3-Image](design/X09.md) | 正文＋官方README＋本地视频关键帧抽样＋全段ASR审读（X09无可用技术口播） |
 | [X22 · 好看哭了的神级网页Skill](design/X22.md) | 正文＋本地视频关键帧抽样＋全段本地ASR审读/音轨检查 |
 | [X26 · PPT-Master：答辩、汇报、演讲](design/X26.md) | 正文＋本地视频关键帧抽样＋全段本地ASR审读/音轨检查 |
@@ -94,7 +108,7 @@
 </details>
 
 <details>
-<summary>3D与动画 · 12项素材</summary>
+<summary>3D与动画 · 11项素材</summary>
 
 | 素材记录 | 实际阅读范围 |
 | --- | --- |
@@ -103,7 +117,6 @@
 | [B09 · 开源：全AI模型生成工作流](animation/B09.md) | 页面元信息 |
 | [B10 · HairDeck单张生成风格化发片整合包](animation/B10.md) | 页面详细简介与原项目链接 |
 | [B11 · 仅需24MB内存！轻量化的ADRY实时AI动画方案](animation/B11.md) | 页面简介 |
-| [B15 · DSH直连Blender插件与视觉反馈](animation/B15.md) | 页面详细简介＋官方README |
 | [B16 · 如何丝滑地解决AI视频的衔接问题](animation/B16.md) | 页面简介 |
 | [B17 · HAST-SEC：0.8B让3D角色听懂中文并实时行动](animation/B17.md) | 页面简介 |
 | [B19 · MMD模型物理优化2.0：RGBA与史莱姆物理](animation/B19.md) | 页面简介与插件链接 |

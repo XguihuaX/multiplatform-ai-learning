@@ -4,6 +4,7 @@
 
 | 知识类型 | 专题 |
 | --- | --- |
+| DSH | [工作台、插件与陪伴角色](dsh.md) |
 | 工具与工作流 | [工具集成、Skill、MCP、上下文管理与任务执行](workflows.md) |
 | Agent与记忆 | [身份、记忆检索、调度与持续运行](agents.md) |
 | 科研与模型训练 | [实验设计、微调、蒸馏、AI Infra与科研方法](research-training.md) |

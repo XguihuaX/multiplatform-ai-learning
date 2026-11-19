@@ -1,5 +1,15 @@
 [
   {
+    "name": "DSH",
+    "slug": "dsh",
+    "topic": "dsh.md",
+    "description": "DeepSeek Harness 工作台、插件与陪伴角色",
+    "lesson_path": "lessons/dsh.md",
+    "lesson_title": "DSH：从工作台到陪伴角色",
+    "learning_outcome": "搭建鲸鱼娘，区分场景人格与推理前缀，定位视觉和用量问题",
+    "lesson_depth": "搭建教程、插件清单与对照练习"
+  },
+  {
     "name": "工具与工作流",
     "slug": "workflows",
     "topic": "workflows.md",

@@ -20,3 +20,5 @@
 [Blender插件](https://github.com/sixtysevenlf/dsh-blender-plugin)最值得先借鉴的是参数化构建和视觉验收：保留可重建脚本，用多视角或渲染结果检查修改，而不仅检查命令返回成功。
 
 下一轮优先补B03完整操作章节、B23两P时间轴。当前不生成未经观看支持的建模教程。
+
+2026-11-21：[Fleshy接触形变说明](../lessons/fleshy-contact-deformation.md)，补充接触表现与应用条件。

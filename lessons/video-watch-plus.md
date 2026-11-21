@@ -19,6 +19,8 @@
 
 以上是明确取帧时刻，不将相邻采样帧之间的内容写成逐秒观看结果。
 
+00:47–00:58包含第三方token服务推广；它不构成该Skill的技术依赖，本章不把兑换码或注册推广纳入使用步骤。
+
 ## 实际使用链路
 
 根据官方Skill说明，完整处理过程可以分为五步：
@@ -47,5 +49,5 @@ BrowserSkill负责实时页面访问、交互与网页上下文；本地视频�
 
 - 收藏编号：B29；作者：808疯狂冲浪。
 - [原视频](https://www.bilibili.com/video/BV1XJWy66EQk/)，平台时长 **00:01:49**，发布时间 **2026-11-11 17:19:12（北京时间）**。
-- 本轮阅读：简介、覆盖时间轴的抽帧、关键画面原尺寸检查、官方Skill文档；音轨处理状态见当天报告。
+- 本轮阅读：简介、全段本地ASR审读、覆盖时间轴的抽帧、关键画面原尺寸检查、官方Skill文档。
 - [官方项目](https://github.com/xinhailaopo/video-watch-plus)、[具体Skill说明](https://github.com/xinhailaopo/video-watch-plus/blob/main/SKILL.md)。对比方法和学习库应用例子是本库补充设计。

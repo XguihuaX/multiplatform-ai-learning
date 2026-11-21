@@ -11,3 +11,5 @@
 | 用视觉反馈验收作品 | [B12 Oil UI](../knowledge/dsh/B12.md) · [B15 Blender 直连](../knowledge/dsh/B15.md) | 网页设计可比较候选首屏和截图。Blender 场景可在修改后从多个视角检查实际渲染。 |
 
 通用运行机制可延伸阅读[上下文、规则与外部记忆](../knowledge/workflows/X18.md)。要比较不同 Agent 的实现，可记录哪一层保管会话、选择工具、执行动作，以及如何把结果交回模型；这些问题也适用于分析 Momo 或 MaiBot。
+
+2026-11-21：[video-watch-plus视频阅读说明](../lessons/video-watch-plus.md)，补充预分析、取帧与浏览器协作。

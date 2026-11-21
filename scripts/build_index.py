@@ -33,6 +33,8 @@ for x in items:
     appendix = (f"<details>\n<summary>{x['id']} 来源、阅读记录与待补内容</summary>\n\n"
         f"- 原标题：{x['title']}\n- 平台：{x['platform']}\n- 来源：[原始内容]({x['url']})\n"
         f"- 稳定ID：{x['source_id']}\n- 分类：{x['category']}\n- 阅读日期：{x['reviewed_at']}\n"
+        f"- 视频发布时间：{x.get('published_at', '未核实')}\n- 视频时长：{x.get('duration_hms', '未核实')}\n"
+        f"- 收藏时间：{x.get('favorited_at', '未核实')}\n- 分P数量：{x.get('part_count', '未核实')}\n"
         f"- 阅读范围：{x['coverage']}\n"
         f"- 素材处理状态：{x.get('learning_status', '已整理现有资料；参见具体阅读范围')}\n"
         f"- 画面覆盖：{'关键帧抽样，未连续逐帧观看' if x.get('visual_observations') else '未完成系统画面阅读'}\n"

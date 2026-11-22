@@ -13,3 +13,5 @@
 通用运行机制可延伸阅读[上下文、规则与外部记忆](../knowledge/workflows/X18.md)。要比较不同 Agent 的实现，可记录哪一层保管会话、选择工具、执行动作，以及如何把结果交回模型；这些问题也适用于分析 Momo 或 MaiBot。
 
 2026-11-21：[video-watch-plus视频阅读说明](../lessons/video-watch-plus.md)，补充预分析、取帧与浏览器协作。
+
+2026-11-22：[DSH感知与操作工具详解](../lessons/dsh-perception-tools.md)，对应B34；从分镜/ASR、实时陪看到Windows操作，附依赖、参数与最小验证案例。

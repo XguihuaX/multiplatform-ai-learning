@@ -87,7 +87,7 @@
 | [X10 · ICML一起写AI顶会论文：大模型记忆](research-training/X10.md) | 完整正文＋本地视频关键帧抽样＋全段本地ASR审读/音轨检查 |
 | [X12 · DeepSeek-R1蒸馏Qwen-7B强在哪？](research-training/X12.md) | 正文标签＋官方文档补充＋本地视频关键帧抽样＋全段本地ASR审读/音轨检查 |
 | [X19 · 谷歌全自动科研AI：ScientistTwo](research-training/X19.md) | 正文＋原论文摘要与项目页＋本地视频关键帧抽样＋全段本地ASR审读/音轨检查 |
-| [B33 · JoVox：轻量性生成高保真 3D 体素， MACaQ：快、小、好的量化模型](research-training/B33.md) | 收藏列表及简介；音视频正文待阅读 |
+| [B33 · JoVox：轻量性生成高保真 3D 体素， MACaQ：快、小、好的量化模型](research-training/B33.md) | 全段本地ASR审读、覆盖时间轴关键帧拼图、JoVox与MACaQ官方README |
 
 </details>
 

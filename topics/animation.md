@@ -22,3 +22,5 @@
 下一轮优先补B03完整操作章节、B23两P时间轴。当前不生成未经观看支持的建模教程。
 
 2026-11-21：[Fleshy接触形变说明](../lessons/fleshy-contact-deformation.md)，补充接触表现与应用条件。
+
+[日常动画首帧与逐镜制作](../lessons/animation-first-frame-workflow.md)：B35关联官方文档补充，视频正文待读。

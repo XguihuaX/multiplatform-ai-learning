@@ -1539,12 +1539,13 @@
     "category": "3D与动画",
     "url": "https://www.bilibili.com/video/BV1fhWf6bELE/",
     "reviewed_at": "2026-11-21",
-    "coverage": "收藏列表及简介；音视频正文待阅读",
+    "coverage": "收藏列表及简介；关联官方README与七步流程已阅读；视频音轨及画面待阅读",
     "summary": "简介线索：上期我问，用 AI 做日系 2D 动画，能有日常番的感觉吗？这期就拿麦麦和糖糖的动画，聊聊这种感觉是怎么做出来的。\n从写剧本、拆分镜，到做首帧、生成视频和剪辑，我把自己的流程过了一遍。也用同一个场景对比了不同画风，讲讲为什么我会先把首帧的线条、配色和光影定下来，再用提示词交代镜头和人物怎么动。\n麦麦糖糖的 GitHub 项目\nhttps://github.com/BenBenHS/maimai-tangtang\n里面有姐妹俩的角色设定、动画制作流程、分镜案例和参考素材。也可以把链接直接发给自己的 AI 助",
-    "verification": "本项尚未阅读音视频正文，简介中的能力与数字仅作后续核查线索。",
-    "next_action": "读取音轨与关键画面后补详细总结及时间点。",
+    "verification": "已补读关联项目制作流程，形成独立文档补充；未据此标记视频已学完。",
+    "next_action": "读取视频音轨与关键帧，核对具体操作及时间戳；文档补充见lessons/animation-first-frame-workflow.md。",
     "references": [
-      "https://github.com/BenBenHS/maimai-tangtang"
+      "https://github.com/BenBenHS/maimai-tangtang",
+      "https://github.com/BenBenHS/maimai-tangtang/blob/main/skills/maimai-tangtang-animation/references/workflow.md"
     ],
     "note_path": "knowledge/animation/B35.md",
     "learning_status": "已建档，待正文学习",
